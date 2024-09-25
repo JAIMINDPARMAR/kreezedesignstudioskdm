@@ -1,0 +1,85 @@
+.left-line label::after {
+    content: '';
+    position: absolute;
+    background: black;
+    height: 5px;
+    width: 100%;
+    margin-left: 5px;
+    bottom: 8px;
+}
+.left-text-ribbon{
+    position: relative;
+    /* border: 1px solid green; */
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.ribbon-tittle{
+    display: flex;
+    justify-content: end;
+    margin-top: -11px;
+}
+.ribbon-city-name{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.ribbon-row{
+    margin-top: 29px;
+}
+.left-line{
+    margin-bottom: 16px;
+}
+.col-right-text p{
+    font-size: 20px;
+}
+
+/* reletd project start */
+
+.releted-project{
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 0px;
+}
+.releted-text{
+    font-size: 23px;
+    font-weight: 500;
+}
+.all-projects{
+    position: relative;
+}
+.all-projects div::before{
+    position: absolute;
+    /* content: '';
+    background-color: blue;
+    height: 5px;
+    width: 25px; */
+}
+.last-table-data{
+    text-align: right;
+}
+.table-rows{
+    font-size: 24px;
+}
+.releted-project-table tr::after{
+    content: '';
+    background-color: black;
+}
+.releted-project-table tr::after {
+    position: absolute;
+    content: '';
+    background-color: black;
+    height: 5px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    padding: 0px 0px;
+}
+.all-project-text{
+    font-size: 23px;
+    font-weight: 500;
+}
+/* reletd project end */

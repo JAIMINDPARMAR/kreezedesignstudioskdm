@@ -1,0 +1,24 @@
+.main-newBanner{
+    
+    height: 55vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.main-card-newBanner{
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.titleCard-newBanner {
+    background-color: #fff;
+    position: absolute;
+    left: 100px;
+    width: 450px;
+    padding: 60px 60px;
+    /* top: 91px; */
+    /* border: 1px solid red; */
+    /* height: 100%; */
+}

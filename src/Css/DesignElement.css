@@ -1,0 +1,43 @@
+.pinterest-grid {
+    flex: 0 0 20%; /* 20% width for each column */
+    max-width: 20%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding: 4px
+  }
+  @media(max-width:700px){
+    .pinterest-grid {
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding-right: 0px;
+      padding-left: 0px;
+      padding: 4px;
+  }
+  }
+  .design-element-card{
+    position: relative;
+    padding-bottom: 4px;
+    padding-top: 4px;
+  }
+
+  .design-element-card-name{
+    z-index: 1000;
+    opacity: 0 !important;
+    position: absolute;
+    /* top: 65px; */
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* top: -6%; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-out;
+  }
+  .design-element-card:hover .design-element-card-name{
+    opacity: 1 !important;
+    color: white;
+    font-size: 18px !important;
+    background: rgba(27,27,27,.6);
+  }

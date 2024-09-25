@@ -1,0 +1,68 @@
+/* service start  */
+.service-get-in-touch{
+    height: 60vh;
+    background: linear-gradient( rgba(27,27,27,0.5), rgba(27,27,27,0.6)), url('../Images/Home/Home\(1\).jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
+.service-get-in-touch{
+    position: relative;
+}
+.service-get-in-touch-para{
+    position: absolute;
+    /* top: 50%; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.service-get-in-touch-title{
+    font-size: 65px
+}
+@media (max-width:800px){
+  .service-get-in-touch-title{
+    font-size: 45px
+}
+.qodef-e-main-image-zoom-holder{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.every-service-section{
+  padding: 19px 0px;
+}
+}
+@media(max-width:500px){
+  .service-get-in-touch-title{
+    font-size: 35px
+}
+.qodef-e-main-image-zoom-holder{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.service-get-in-touch-para p{
+  font-size: 16px !important;
+}
+.service-get-in-touch-para button{
+  padding: 10px 10px !important;
+  width: 131px !important;
+}
+}
+
+.service-get-in-touch-para button{
+    border: 2px solid #fff;
+    color: #fff;
+    gap: 5px;
+    border-radius: -9%;
+    border-radius: 20px;
+    width: 150px;
+    /* font-size: 16px; */
+    padding: 15px 15px;
+
+}

@@ -1,0 +1,18 @@
+.multiple-images .swiper-wrapper{
+    flex-direction: column !important;
+    gap: 25px;
+}
+.multiple-images .swiper-wrapper .swiper-slide img{
+    height: 100px;
+    width: 100px;
+}
+.ant-image :where(.css-dev-only-do-not-override-djtmh8).ant-image .ant-image-img{
+    width: 100vh;
+}
+.particular-img{
+    /* width: 100vh; */
+    width:100% ;
+    border: 1px solid gray;
+    /* height: 73vh !important; */
+    
+}

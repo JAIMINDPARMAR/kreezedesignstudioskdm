@@ -1,0 +1,206 @@
+.main-project{
+    display: flex;
+    justify-content: space-between;
+}
+.standard-list{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.standard-list p{
+    /* margin-right: 20px; */
+}
+.design-list{
+    list-style: none;
+    cursor: pointer;
+    /* text-decoration: underline; */
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.design-list li{
+    margin: 20px;
+}
+.inner-card div img{
+    width: 100%;
+    height: 100%;
+}
+.card-title{
+    font-family: var(---font01);
+    font-size: 18px;
+    line-height: 1.67em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.list-inside-list{
+    list-style: none;
+    cursor: pointer;
+    /* text-decoration: underline; */
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+.list-inside-list li{
+    margin-right: 20px;
+}
+.beforeAfter ::after{
+    content: "";
+    background-color: red;
+}
+.beforeAfter{
+    margin: 0px 20px;
+    border-right: 1px solid rgba(229,229,229,.5);
+}
+.project-card-images:hover{
+    transform: translateY(-4px);
+    /* transition: .5s; */
+}
+.project-card-images{
+    height: 100%;
+    width: 100%;
+    height: 50vh !important;
+    object-fit: cover;
+    transition: all .4s ease-in-out;
+}
+.page-title{
+    text-transform: uppercase;
+}
+.second-section{
+    margin: 0px 60px 60px 60px;
+}
+.list-item-transition {
+    transition: all 0.4s;
+  }
+
+  /* For screens smaller than 600px */
+@media screen and (max-width: 600px) {
+    .design-list,
+    .list-inside-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns layout for smaller screens */
+        gap: 10px; /* Gap between items */
+    }
+    .design-list li,
+    .list-inside-list li {
+        margin: 0; /* Remove margin for list items */
+    }
+}
+
+/* For screens between 600px and 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .design-list,
+    .list-inside-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Two columns layout for medium screens */
+        gap: 15px; /* Gap between items */
+    }
+    .design-list li,
+    .list-inside-list li {
+        margin: 0; /* Remove margin for list items */
+    }
+}
+
+/* For screens larger than 900px */
+@media screen and (min-width: 901px) {
+    .design-list,
+    .list-inside-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .design-list li,
+    .list-inside-list li {
+        /* Default margin for larger screens */
+    }
+}
+@media (max-width:1280px){
+
+}
+@media (max-width:800px){
+    .about-section-main-con{
+        padding: 53px 37px !important;
+    }
+}
+@media (max-width:500px){
+    .about-section-main-con{
+        padding: 24px 30px !important;
+    }
+    .qodef-st-title{
+        font-size: 24px;
+    }
+    .qodef-st-text{
+        font-size: 16px;
+    }
+}
+
+.project-main-image-card{
+    /* position: relative; */
+}
+.project-card-images{
+    /* position: absolute; */
+}
+.project-main{
+    position: relative;
+}
+.project-text{
+    position: absolute;
+}
+.project-para{
+    position: absolute;
+    top: 0px;
+    /* bottom: 40%; */
+    left: 0;
+    opacity: -1;
+    /* visibility: hidden; */
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .project-para :hover{
+    background-color: white;
+} */
+.project-para:hover{
+    /* .project-para{ */
+        /* position: absolute;
+        bottom: 40%;
+        left: 25%; */
+        /* visibility: visible; */
+    /* } */
+}
+.project-card-images :hover .project-para{
+    /* { */
+        position: absolute;
+        bottom: 40%;
+        left: 25%;
+        opacity: 3;
+        /* visibility: visible; */
+    /* } */
+}
+
+.inner-card:hover .project-para{
+    opacity: 1;
+    background-color: #fff;
+    color: #000 !important;
+}
+.project-para{
+    transition: all 0.5s ease-in-out;
+}
+.inner-card:hover {
+    /* z-index: 1000; */
+    background-color: rgba(27,27,27,.6);
+}
+.inner-card{
+    /* background-color: white; */
+    /* border: 1px solid red; */
+}
+
+.design-list li, .list-inside-list li{
+    font-weight: 500 !important;
+}

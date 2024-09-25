@@ -1,0 +1,31 @@
+.project-social-media{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: gray;
+}
+
+.qodef-portfolio-single-holder .qodef-ps-info-holder {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+/* div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #666;
+    padding: 40px;
+    font-size: 25px;
+  } */
+  @media (max-width:700px){
+    .project-gallery-right{
+        margin-bottom: 50px;
+    }
+  }
+  :where(.css-dev-only-do-not-override-djtmh8).ant-image-preview-root .ant-image-preview-img{
+    max-width: 70% !important;
+    max-height: 70% !important;
+    object-fit: contain !important;
+  }
