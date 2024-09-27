@@ -1,4 +1,4 @@
-import React, { useRef, useState,useEffect } from "react";
+import React, { useRef, useState } from "react";
 import "../Css/Home.css";
 import Blog from "../Images/Home/Home Blog.jpg";
 import Architecture from "../Images/Home/Architecture.jpg";
@@ -6,7 +6,7 @@ import Homebackstyle from "../Images/Home/Home back style.jpg";
 import Logo from "../Images/logo/Kreeze Design Studio.png";
 import Slide from "react-reveal/Slide";
 import { Zoom } from "react-reveal";
-import Loader from "./Loader";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -41,7 +41,6 @@ import interior5 from "../Images/Home/1 (7).webp";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  
   return (
     <>
       <section className="home-section-1-con">

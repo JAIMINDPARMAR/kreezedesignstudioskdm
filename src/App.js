@@ -40,7 +40,6 @@ function App() {
       setLoading(false)
     }, 3000);
     return () => clearTimeout(timer);
-
   },[])
   return (
     <div className="App">
