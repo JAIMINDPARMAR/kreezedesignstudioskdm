@@ -32,7 +32,7 @@ const DesignProcess = () => {
       <hr />
         <Accordion.Header className="container">
           {" "}
-          <h2 className="text-muted accordion-title"> {v.titleName}</h2>
+          <h5 className="text-muted accordion-title"> {v.titleName}</h5>
         </Accordion.Header>
         <Accordion.Body className="container">
        
@@ -56,7 +56,8 @@ const DesignProcess = () => {
               <div>
                 <img
                   className="w-100"
-                  src="https://dessau.qodeinteractive.com/wp-content/uploads/2018/05/h1-img-3.jpg"
+                  src={v.serviceImg}
+                  alt='imagee'
                 />
               </div>
             </div>

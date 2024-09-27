@@ -42,14 +42,14 @@ function App() {
     return () => clearTimeout(timer);
 
   },[])
-
   return (
     <div className="App">
+      <div className={`content ${loading ? 'loading' : ''}`}>
     {/* <Fade when={!loading} duration={500}> 
         <Loader />
       </Fade> */}
 
-    <div className={`content ${loading ? 'loading' : ''}`}>
+    
     <BrowserRouter>
         <Header />
         <Routes>
@@ -103,7 +103,7 @@ function App() {
       </BrowserRouter>
     </div>
     {loading && <Loader />}
-  </div>
+    </div>
     // <div className="App">
     //   {loading? <Loader /> :<BrowserRouter>
     //     <Header />
@@ -145,7 +145,8 @@ function App() {
     //     <FooterPage />
     //   </BrowserRouter>}
     // </div>
-  );
+    
+);
 }
 
 export default App;

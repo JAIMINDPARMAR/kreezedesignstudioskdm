@@ -30,9 +30,9 @@ const FooterPage = () => {
                                     <Link to='/experties'>
                                         <h3>Experties</h3>
                                     </Link>
-                                    <Link to='/design-element'>
+                                    {/* <Link to='/design-element'>
                                         <h3>Design elements</h3>
-                                    </Link>
+                                    </Link> */}
                                     <Link to='/blog'>
                                         <h3>Blog</h3>
                                     </Link>
